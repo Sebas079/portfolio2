@@ -1,0 +1,63 @@
+.skill{
+   
+    grid-area: skill;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: 100%;
+    
+
+}
+.skill__content{
+    margin: 2rem;
+    width: 100%;
+}
+.skill__lista{
+    
+    margin: 2rem 0;
+}
+.skill__titulo{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #000000;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.skill__lista__elem{
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: inline-flex;
+    margin:2rem;
+    width: 250px;    
+    height: 120px;
+    transition: 1s;
+
+    
+}
+.skill__lista__elem:hover{
+    transform: scale(1.2);
+    border: 5px solid #00ff25;
+    
+}
+
+.skill__lista__elem:nth-child(1){
+    background: url("../images/Skill.png")center/cover no-repeat;
+    
+}
+.skill__lista__elem:nth-child(2){
+    background: url("../images/Skill\ \(1\).png")center/cover no-repeat;
+}
+.skill__lista__elem:nth-child(3){
+    background: url("../images/Skill\ \(2\).png")center/cover no-repeat;
+}
+.skill__lista__elem:nth-child(4){
+    background: url("../images/Skill\ \(3\).png")center/cover no-repeat;
+}
+.skill__lista__elem:nth-child(5){
+    background: url("../images/Skill\ \(4\).png")center/cover no-repeat;
+}
+.skill__lista__elem:nth-child(6){
+    background: url("../images/Skill\ 6.png")center /cover no-repeat;
+}
+   

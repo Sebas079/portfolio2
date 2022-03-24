@@ -1,0 +1,80 @@
+.proyecto{
+    grid-area: proyecto;
+    grid-column: 1/5;
+    grid-row: 7/8;
+}
+
+.proyecto__titulo{
+    font-size: 2rem;
+    color: #000000;
+    margin: 2rem 2rem;
+    text-decoration: underline;
+    
+    
+}
+.proyecto__content{
+    margin: 2rem 3rem;
+    width: 100%;
+}
+.proyecto__lista{
+    margin: 2rem 0;
+
+
+}
+.proyecto__lista__elem{
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: inline-flex;
+    margin:2rem;
+    width: 300px;    
+    height: 300px;
+    transition: 1s;
+
+    
+}
+.proyecto__lista__elem:hover{
+    transform: scale(1.2);
+    border: 5px solid #00ff25;
+    
+}
+.proyecto__button{
+    margin: 1rem;
+    width: 150px;
+    height: 25px;
+    background: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.proyecto__button:hover{
+    transform: scale(1.2);
+    background: #f96c01;
+    
+
+}
+
+
+.proyecto__lista__elem:nth-child(1){
+    background: url("../images/2022-03-01\ \(3\).png")center / cover no-repeat;
+    
+}
+.proyecto__lista__elem:nth-child(2){
+    background: url("../images/2022-03-02\ \(5\).png") center / cover no-repeat;
+}
+.proyecto__lista__elem:nth-child(3){
+    background: url("../images/barberiaAlura.png") center / cover no-repeat;
+   
+}
+.proyecto__lista__elem:nth-child(4){
+    background: url("../images/aluraStore.png");
+    
+}
+.proyecto__lista__elem:nth-child(5){
+   
+.proyecto__lista__elem:nth-child(6){
+    
+}
+   

@@ -1,0 +1,33 @@
+.aboutMe{
+    background: #000000;
+    color: #ffffff;
+    grid-area: aboutMe;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin: 3rem auto;
+    padding: 1rem;
+    width: 100%;
+
+}
+.aboutMe__titulo{
+    font-family:'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    text-decoration: underline;
+
+}
+.aboutMe__contenido{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-indent: 40px;
+    margin: 1rem;
+
+
+}
+.aboutMe__img{
+    width: 12vh;
+    height: auto;
+ 
+
+}

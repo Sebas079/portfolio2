@@ -1,0 +1,50 @@
+.contacto{
+    background: #000000;
+    color: #fff;
+    grid-area: contacto;
+    grid-column: 1/5;
+    grid-row: 8/9;
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+.contacto__img{
+    border-radius: 20px;
+    margin: 1rem;
+}
+.contacto__titulo{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.contacto__input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+.contacto__label{
+    font-weight: 700;
+    margin-bottom: .5rem;
+
+}
+.contacto__textarea{
+    width: 100%;
+}
+.contacto__send{
+    font-size: 1rem;
+     transition: 1s;
+     margin:;
+   
+   }
+   .contacto__send:hover{
+     transform: scale(1.2);
+     background: #f96c01;
+     color: #fff;
+   
+     
+   
+   }
+

@@ -1,0 +1,58 @@
+.formacion{
+    background: #000000;
+    grid-area: formacion;
+    grid-column: 1/5;
+    grid-row: 5/6;
+    width: 100%;
+    padding: 2rem;
+
+    
+
+}
+
+.formacion__content{
+    margin: 1.5rem;
+    width: 100%;
+}
+.formacion__lista{
+    
+    margin: 2rem 0;
+}
+.formacion__titulo{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.formacion__lista__elem{
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: inline-flex;
+    margin:2rem;
+    width: 250px;    
+    height: 250px;
+    transition: 1s;
+
+    
+}
+.formacion__lista__elem:hover{
+    transform: scale(1.2);
+    border: 5px solid #00ff25;
+    
+}
+
+.formacion__lista__elem:nth-child(1){
+    background: url("../images/FreeCodeCamp_logo.png")  ;
+    background-size: cover;
+    bac
+    
+}
+.formacion__lista__elem:nth-child(2){
+    background: url("../images/googelDevs400x400.jpg")center/cover no-repeat;
+}
+.formacion__lista__elem:nth-child(3){
+    background: url("../images/Imagem\ \(1\).png")center/cover no-repeat;
+}

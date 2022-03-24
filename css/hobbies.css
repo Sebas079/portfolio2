@@ -1,0 +1,63 @@
+.hobbies{
+    color:#ffffff;
+    grid-area: hobbies;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    width: 100%;
+    
+
+}
+
+.hobbies__content{
+    margin: 2rem 3rem;
+    width: 100%;
+}
+.hobbies__lista{
+
+    margin: 2rem 0;
+}
+.hobbies__titulo{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color:#ffffff;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+.hobbies__lista__elem{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    display: inline-flex;
+    margin:2rem;
+    width: 250px;    
+    height: 120px;
+    transition: 1s;
+
+    
+}
+.hobbies__lista__elem:hover{
+    transform: scale(1.2);
+    border: 5px solid #00ff25;
+    
+}
+
+.hobbies__lista__elem:nth-child(1){
+    background: url("../images/futbol.png")center/cover no-repeat;
+    
+}
+.hobbies__lista__elem:nth-child(2){
+    background: url("../images/Hobbies\ \(2\).png")center/cover no-repeat;
+}
+.hobbies__lista__elem:nth-child(3){
+    background: url("../images/Hobbies\ \(3\).png")center/cover no-repeat;
+}
+.hobbies__lista__elem:nth-child(4){
+    background: url("../images/Hobbies\ \(4\).png")center/cover no-repeat;
+}
+.hobbies__lista__elem:nth-child(5){
+    background: url("../images/Hobbies\(1\).png")center/cover no-repeat;
+}
+.hobbies__lista__elem:nth-child(6){
+    background: url("../images/cocinar.png")center /cover no-repeat;
+}
+   

@@ -1,0 +1,92 @@
+   
+@media only screen and (max-width: 600px){
+    
+    .body{
+        width: 100%;
+        display:block;
+    }
+    .header{
+        padding: 3rem;
+        width: 100%;
+    }
+    .header__menu {
+        position: relative;
+        right: 10px;
+        margin: 2rem;
+    }
+    .content__presentacion{
+        width: 50vh;
+        grid-column: 1/5;
+   /* height: 100%; */
+       font-size: 6vw;
+       text-align: center;
+       margin: 0 auto;
+       text-align: left;
+       padding-right: 2.5rem;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    .content__presentacion__img{
+        grid-column: 1/1;
+        width: 25vw;
+        height: 25vw;
+        top: 30vw;
+        border: 3px solid #fff;
+        position: absolute;
+    }
+    .content__socialMedia__lista{
+        margin:0 auto;
+    }
+    .aboutMe{
+        margin:0 auto;
+        padding: 0;
+    }
+    .skill__lista,
+    .hobbies__lista{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .skill__lista__elem,
+    .hobbies__lista__elem{
+        margin: 0.5rem;
+        width: 35VW;
+        height: 20VW;
+    }
+    .formacion{
+        padding: 0;
+
+    }
+    .formacion__lista{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .formacion__lista__elem{
+        margin: 0.5rem;
+        width: 40vw;
+        height: 35vw;
+    }
+    .proyecto {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .proyecto__content {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .contacto__img{
+        display: none ;
+    }
+    .rodapie__socialMedia {
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        
+    }
+    .rodapie__socialMedia__lista {
+        margin:0 auto;
+       
+        font-size: .5rem;
+        font-weight: 700;
+    }
+}
